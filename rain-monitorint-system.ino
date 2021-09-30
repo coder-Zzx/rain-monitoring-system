@@ -111,7 +111,7 @@ String SendHTML()
 
     ptr += "<div id=\"webpage\">\n";
 
-    ptr += "<h1>室外温室检测系统</h1>\n";
+    ptr += "<h1>室外雨水检测系统</h1>\n";
     ptr += "<div class=\"data\">\n";
     ptr += "<div class=\"side-by-side temperature-icon\">\n";
     ptr += "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n";
