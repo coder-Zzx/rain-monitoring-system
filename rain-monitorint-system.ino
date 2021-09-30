@@ -11,7 +11,7 @@
 #define D6 12
 #define D7 13
 #define RAIN_PIN D7
-#define DHT_PIN D6
+#define DHT11PIN D6
 
 const char *ssid = "rain-monitoring-system";
 const char *password = "1373539657";
@@ -42,7 +42,7 @@ void handle_OnConnect()
     float h = getHumidity();
     float t = getTemperature();
 
-    server.send(200, "text/html", SendHTML(h, t));
+    server.send(200, "text/html", SendHTML());
 }
 
 void handle_NotFound()
